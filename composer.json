@@ -1,0 +1,25 @@
+{
+    "name": "dhawton/vatsim-sso",
+    "type": "library",
+    "description": "A library that aides in the use of Vatsim's SSO",
+    "keywords": ["OAuth", "VATSIM SSO"],
+    "homepage": "https://github.com/dhawton/vatsim-sso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel A. Hawton",
+            "email": "daniel@hawton.org",
+            "homepage": "http://www.danielhawton.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "dhawton/oauth": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "dhawton\\Vatsim\\SSO" : "lib/"
+        }
+    }
+}
